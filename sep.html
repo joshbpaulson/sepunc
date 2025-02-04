@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNC Sigma Eta Pi</title>
+    <link rel="stylesheet" href="sep.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Salsa&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="sep.html"><img src="images/seplogo.png"
+                height="300px"></a>
+            <div class="nav-link" id="navLink">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="sep.html">HOME</a></li>
+                    <li><a href="events.html">JOIN US</a></li>
+                    <li><a href="">MEMBERS</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onmousedown="showMenu()"></i>
+        </nav>
+            <div class="text-box">
+                <p>SIGMA ETA PI</p>
+                
+                
+            </div>
+    </section>
+<!---events-->
+    
+
+    </section>
+
+<!---JavaScript for Toggle Menu-->
+<script>
+    var navLink = document.getElementById("navLink");
+    function showMenu() {
+        navLink.style.right = "0";
+    }
+    function hideMenu() {
+        navLink.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
