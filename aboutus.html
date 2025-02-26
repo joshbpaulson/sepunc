@@ -8,35 +8,63 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Salsa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="about-us">
+    <!-- Header Section -->
+    <section class="header">
         <nav>
-            <a href="sep.html"><img src="images/seplogo.png"
-                height="300px"></a>
-            <div class="nav-link" id="navLink">
-            <i class="fa fa-times" onclick="hideMenu()" ></i>
+            <a href="index.html"><img src="images/seplogo.png" alt="Sigma Eta Pi Logo" height="100"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="sep.html">HOME</a></li>
+                    <li><a href="index.html">HOME</a></li>
                     <li><a href="events.html">JOIN US</a></li>
-                    <li><a href="">MEMBERS</a></li>
+                    <li><a href="members.html">MEMBERS</a></li>
                     <li><a href="aboutus.html">ABOUT US</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onmousedown="showMenu()"></i>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-            <div class = "about-us-textbox"></div>
-                <h1>
-                    ABOUT US
-                </h1>
-                <h2>Founded in 2020, Sigma Eta Pi is UNC’s premier co-ed entrepreneurship fraternity. We're a diverse brotherhood all united by a singular passion for entrepreneurship and creating innovative solutions. We are dedicated to creating a supportive community where members can develop their creativity, intellect, and problem-solving skills. 
-                </h2>
-                <p></p>
 
+        <div class="text-box">
+            <h1>About Us</h1>
+            <p>Learn more about our mission, values, and community.</p>
+        </div>
     </section>
+
+    <!-- About Content -->
+    <section class="about-content">
+        <h2>Our Mission</h2>
+        <p>
+            Founded in 2020, Sigma Eta Pi is UNC’s premier co-ed entrepreneurship fraternity. 
+            We're a diverse brotherhood united by a passion for innovation, creativity, and problem-solving. 
+            Join us to build lifelong connections and develop your entrepreneurial skills.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>Follow Us:</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/uncsep" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100064354797031" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/sigma-eta-pi-at-unc/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2025 UNC Sigma Eta Pi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
