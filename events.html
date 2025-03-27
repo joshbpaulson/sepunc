@@ -3,67 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UNC Sigma Eta Pi Events</title>
+    <title>Upcoming Events - Sigma Eta Pi</title>
     <link rel="stylesheet" href="sep.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header Section -->
-    <section class="header">
-        <nav>
-            <a href="index.html"><img src="images/seplogo.png" alt="Sigma Eta Pi Logo" height="100"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="events.html">JOIN US</a></li>
-                    <li><a href="members.html">MEMBERS</a></li>
-                    <li><a href="aboutus.html">ABOUT US</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
 
-        <div class="text-box">
-            <h1>Upcoming Events</h1>
-            <p>Join us for workshops, networking opportunities, and more!</p>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="members.html">MEMBERS</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+            </ul>
         </div>
+    </nav>
+
+    <!-- Events Header -->
+    <section class="header">
+        <h1>Upcoming Events</h1>
+        <p>Join us for workshops, networking opportunities, and more!</p>
     </section>
 
     <!-- Events Content -->
     <section class="events-content">
-        <h2>Fall 2024 Recruitment</h2>
-        <p>
-            Information about fall recruitment will be released in August. 
-            Follow us on Instagram <a href="https://www.instagram.com/uncsep" target="_blank">@uncsep</a> to stay updated!
-        </p>
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li><strong>3/27:</strong> Interview Prep</li>
+            <li><strong>4/3:</strong> Speaker Series with Allan Younger (Senior Director of Programs - NC IDEA)<br>
+            <li><strong>4/10:</strong> Consulting Case Exercise</li>
+            <li><strong>4/17:</strong> No Chapter - WBD</li>
+            <li><strong>4/24:</strong> Last Chapter of the Semester - Pitch Competition Judging</li>
+            <li><strong>4/25–4/27:</strong> SEP Retreat</li>
+        </ul>
+
+        <h2 style="margin-top: 40px;">Past Events</h2>
+        <ul>
+            <li><strong>2/6:</strong> Induction @ 11pm</li>
+        </ul>
+
+        <h3 style="margin-top: 20px;">Recruitment Events</h3>
+        <ul>
+            <li>1/14: Pit Tabling</li>
+            <li>1/15: Busi 100 Tabling</li>
+            <li>1/16: Info Session</li>
+            <li>1/17: Hot Chocolate + Tabling</li>
+            <li>1/21: Paint and Pass</li>
+            <li>1/22: Speed Dating + Tabling</li>
+            <li>1/23: Info Session with Member Panel</li>
+            <li>1/26: Applications Due</li>
+            <li>1/30–31: Formal Recruitment</li>
+        </ul>
+
+        <h3>Workshops & Development</h3>
+        <ul>
+            <li>2/11: Resume Workshop w/ New Members</li>
+            <li>2/20: Interview Workshop w/ New Members</li>
+        </ul>
+
+        <h3>Professional & Speaker Events</h3>
+        <ul>
+            <li>2/18: Poppi & Pitches</li>
+            <li>2/27: Speaker Event #1 – Scott Maitland (Top of the Hill)</li>
+            <li>3/7: Speaker Event #2 – Joshua Tarbutton (Bravo Team LLC)</li>
+        </ul>
+
+        <h3>Networking & Social Events</h3>
+        <ul>
+            <li>2/27: SEP Cocktail (9–11pm)</li>
+        </ul>
+
+        <h3>Community Engagement & Volunteering</h3>
+        <ul>
+            <li>3/1: Basketball Volunteering (UNC v. Miami, 10am–1pm)</li>
+        </ul>
+
+        <ul>
+            <li><strong>3/18:</strong> Exec Applications Due</li>
+            <li><strong>3/21:</strong> Public Speaking Workshop w/ New Members (Room 3250)</li>
+            <li><strong>3/24:</strong> Deloitte Networking Event (6–7pm, Virtual)</li>
+        </ul>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="footer-content">
-            <p>Follow Us:</p>
-            <div class="social-icons">
-                <a href="https://www.instagram.com/uncsep" target="_blank"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.facebook.com/profile.php?id=100064354797031" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.linkedin.com/company/sigma-eta-pi-at-unc/" target="_blank"><i class="fa fa-linkedin"></i></a>
-            </div>
-            <p>&copy; 2025 UNC Sigma Eta Pi. All rights reserved.</p>
+        <p>© 2025 UNC Sigma Eta Pi. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
         </div>
     </footer>
 
-    <!-- JavaScript for Toggle Menu -->
-    <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu() {
-            navLinks.style.right = "0";
-        }
-        function hideMenu() {
-            navLinks.style.right = "-200px";
-        }
-    </script>
 </body>
 </html>

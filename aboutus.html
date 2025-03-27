@@ -3,68 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UNC Sigma Eta Pi About Us</title>
+    <title>About Us - Sigma Eta Pi</title>
     <link rel="stylesheet" href="sep.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header Section -->
-    <section class="header">
-        <nav>
-            <a href="index.html"><img src="images/seplogo.png" alt="Sigma Eta Pi Logo" height="100"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="events.html">JOIN US</a></li>
-                    <li><a href="members.html">MEMBERS</a></li>
-                    <li><a href="aboutus.html">ABOUT US</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
 
-        <div class="text-box">
-            <h1>About Us</h1>
-            <p>Learn more about our mission, values, and community.</p>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="members.html">MEMBERS</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+            </ul>
         </div>
+    </nav>
+
+    <!-- About Us Header -->
+    <section class="header">
+        <h1>About Sigma Eta Pi</h1>
+        <p>Empowering the next generation of entrepreneurs at UNC.</p>
     </section>
 
-    <!-- About Content -->
-    <section class="about-content">
+    <!-- Our Mission Section -->
+    <section class="about">
         <h2>Our Mission</h2>
-        <p>
-            Founded in 2020, Sigma Eta Pi is UNC’s premier co-ed entrepreneurship fraternity. 
-            We're a diverse brotherhood united by a passion for innovation, creativity, and problem-solving. 
-            Join us to build lifelong connections and develop your entrepreneurial skills.
-        </p>
+        <p>Sigma Eta Pi fosters a community of innovative thinkers and entrepreneurial leaders by providing 
+        mentorship, resources, and hands-on experience in startup culture.</p>
+    </section>
+
+    <!-- Our Values Section -->
+    <section class="about">
+        <h2>Our Values</h2>
+        <p>We uphold the values of innovation, collaboration, and excellence. Our members are dedicated to making an impact 
+        in the world through entrepreneurship.</p>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="footer-content">
-            <p>Follow Us:</p>
-            <div class="social-icons">
-                <a href="https://www.instagram.com/uncsep" target="_blank"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.facebook.com/profile.php?id=100064354797031" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.linkedin.com/company/sigma-eta-pi-at-unc/" target="_blank"><i class="fa fa-linkedin"></i></a>
-            </div>
-            <p>&copy; 2025 UNC Sigma Eta Pi. All rights reserved.</p>
+        <p>© 2025 UNC Sigma Eta Pi. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
         </div>
     </footer>
 
-    <!-- JavaScript for Toggle Menu -->
-    <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu() {
-            navLinks.style.right = "0";
-        }
-        function hideMenu() {
-            navLinks.style.right = "-200px";
-        }
-    </script>
 </body>
 </html>
