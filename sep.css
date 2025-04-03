@@ -250,3 +250,20 @@ footer {
     font-size: 16px;
     color: #555;
 }
+
+.groupme-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #00b5e2; /* GroupMe blue-ish */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+    margin-top: 10px;
+}
+
+.groupme-button:hover {
+    background-color: #009cc4;
+}
